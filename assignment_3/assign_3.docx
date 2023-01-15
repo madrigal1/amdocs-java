@@ -1,0 +1,53 @@
+# Assignment #3
+
+a) Identify the classes
+
+Ans) There are 4 classes:
+     1) Company 
+     2) Manager
+     3) Employee
+     4) Contractor
+
+b) Identify the relationships between each class.
+Manager: 
+    - is a subclass of employee 
+    - 1 manager supervises many employee
+Contractor:
+    - is a subclass of Employee
+Company:
+    - 1 company has 1 or many employees
+Employee:
+    - has a aggregation of company i.e company class contains 1 or more employee objects
+    
+c) Identify the attributes and methods.
+- Company:
+  - Attributes:
+    - name
+    - employees
+  - Methods: 
+    - getName()
+    - getEmployees()
+- Employee:
+   - Attributes:
+    - name
+    - employeeNumber
+    - salary
+    - manager
+   - Methods:
+    - getName()
+    - getEmployeeName()
+    - getSalary()
+    - getManager()
+- Contractor
+    - Attributes
+     - lengthOfContract
+    - Methods:
+     - getLengthOfContract()
+- Manager
+    - Attributes
+     - manages
+    - Methods:
+     - addTeamMembers()
+     - getTeamMembers()
+
+
